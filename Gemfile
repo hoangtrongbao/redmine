@@ -27,11 +27,10 @@ gem "rails-html-sanitizer", ">= 1.0.3"
 gem 'tzinfo-data', platforms: [:mingw, :x64_mingw, :mswin]
 gem "rbpdf", "~> 1.19.3"
 
-gem "redmine_github_hook"
 gem 'pry-rails'
 # Optional gem for LDAP authentication
 group :ldap do
-  gem "net-ldap", "~> 0.12.0"
+  gem "net-ldap", "~> 0.16.0"
 end
 
 # Optional gem for OpenID authentication
